@@ -1,0 +1,3 @@
+pull-pull the data from online
+push-push to online
+commit-save in github
