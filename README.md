@@ -1,37 +1,81 @@
-# Zomato Data Cleaning and Preprocessing
+# 🍽️ Zomato Data Analysis
 
-This project demonstrates how to clean and preprocess the Zomato restaurant dataset using Python and Pandas in a Jupyter Notebook.
+This project focuses on **cleaning and preprocessing** a real-world Zomato dataset to prepare it for analysis. The goal is to make the data usable for further analytics, reporting, and visualization.
 
-## 📁 Files
+---
 
-- `zomato_data_cleaning.ipynb`: Jupyter Notebook with step-by-step data cleaning.
-- `requirements.txt`: Python dependencies to run the notebook.
-- `README.md`: Project overview and usage instructions.
+## 📁 Files Included
 
-## 📊 Dataset
+- `977c25b8-765e-4408-85fd-7a0c6afeeefd.ipynb`: The main Jupyter Notebook used for data cleaning.
+- `requirements.txt`: List of Python dependencies.
+- `README.md`: This documentation file.
 
-Ensure that the file `zomato.csv` is present in the same directory. This dataset is expected to contain restaurant data with features such as location, cost, ratings, etc.
+---
 
-## 🔧 Features of the Notebook
+## 🚀 What This Notebook Does
 
-- Drops irrelevant or redundant columns
-- Renames key columns for clarity
-- Cleans cost and rating columns
-- Handles missing values appropriately
-- Outputs a cleaned dataset as `zomato_data_analysis.csv`
+The notebook performs the following data cleaning and preprocessing steps:
 
-## 🚀 How to Run
+- Load the Zomato dataset
+- Drop unnecessary columns
+- Rename columns for clarity
+- Handle missing values
+- Convert data types
+- Normalize text casing
+- Export the cleaned data to a CSV file
 
-```bash
-pip install -r requirements.txt
-jupyter notebook zomato_data_cleaning.ipynb
-```
+---
 
-## 🧪 Output
+## 🛠️ Technologies Used
 
-- A cleaned version of the original dataset saved as `zomato_data_analysis.csv`.
+- **Python**
+- **Pandas** for data manipulation
+- **NumPy** for numerical operations
+- **Jupyter Notebook** for interactive coding
+
+---
+
+## 🧼 Sample Cleaning Actions
+
+- Fixes inconsistent column names
+- Drops redundant columns like URLs, phone numbers, etc.
+- Cleans up cost-related and rating columns
+- Handles missing values with appropriate strategies
+- Converts column data types to suitable formats
+- Corrects textual casing for uniformity
+
+---
+
+## 📊 Output
+
+The final cleaned dataset is saved as `zomato_data_analysis.csv`, ready for visualization or modeling.
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository or download the files.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook 977c25b8-765e-4408-85fd-7a0c6afeeefd.ipynb
+   ```
+4. Run all cells to generate the cleaned dataset.
+
+---
 
 ## 📌 Notes
 
-- The column `approx_cost(for two people)` is cleaned to produce a `cost_per_person` column.
-- The `rate` column is transformed into a numeric `rating`.
+- Ensure that the original Zomato dataset CSV is in the same directory.
+- Python 3.7+ is recommended.
+
+---
+
+## 📧 Contact
+
+For any queries or contributions, feel free to open an issue or submit a pull request.
+
+---
